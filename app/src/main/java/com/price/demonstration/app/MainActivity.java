@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String x = "This is a baby.";
+        String x = "This might not be a baby";
         TextView baby = (TextView)findViewById(R.id.a_baby);
         baby.setText(x);
     }
