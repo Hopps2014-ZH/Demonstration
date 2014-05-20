@@ -15,6 +15,6 @@
         android:id="@+id/a_baby"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp" />
+        android:layout_marginTop="175dp" />
 </RelativeLayout>
 
