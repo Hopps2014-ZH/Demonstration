@@ -3,5 +3,8 @@
 
     <string name="app_name">Demonstration</string>
     <string name="hello_world">Hello world!</string>
+    <string name="baby1">This is a baby.</string>
+    <string name="baby2">This might not actually be a baby.</string>
+    <string name="bText">An arbitrary button</string>
 
 </resources>
