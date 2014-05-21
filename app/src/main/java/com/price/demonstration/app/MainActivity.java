@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -16,8 +17,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String x = "This might not be a baby";
         TextView baby = (TextView)findViewById(R.id.a_baby);
-        baby.setText(x);
+        Button button = (Button)findViewById(R.id.not_a_baby);
+        baby.setText("This is a baby.");
+        button.setText("An arbitrary button");
     }
 }
