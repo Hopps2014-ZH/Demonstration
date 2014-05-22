@@ -37,3 +37,7 @@ public class MainActivity extends Activity {
         });
     }
 }
+//So, to commit changes and other kinky stuff like that, go to the GitHub app and look
+//at the "changes" area. You can commit the changes there. Commit every now and then. If you're adding a new feature,
+//please create a new branch, to avoid fucking up the master project. When you think your feature is done,
+//and have tested it, you can merge it into the master project in the GitHub application. Cool huh?
